@@ -14,6 +14,12 @@ app.get("/api/test", (req, res) => {
   res.send("my name is mahe how are you main");
 });
 
+
+app.get("/api/new----> main", (req, res) => {
+  res.send("my name is mahe how are you main");
+});
+
+
 app.use(express.static(path.join(__dirname, "./frontend/build")));
 
 app.get("*", function (_, res) {
