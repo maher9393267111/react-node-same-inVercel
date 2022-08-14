@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
 app.get("/api/test", (req, res) => {
-  res.send("new  wll go to main now hazir ol");
+  res.send("my name is mahe how are you main");
 });
 
 app.use(express.static(path.join(__dirname, "./frontend/build")));
