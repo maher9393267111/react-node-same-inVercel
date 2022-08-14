@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
 app.get("/api/test", (req, res) => {
-  res.send("test new branch here");
+  res.send("new ne well be mergeed now with main");
 });
 
 app.use(express.static(path.join(__dirname, "./frontend/build")));
